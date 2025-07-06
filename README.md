@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+ ENTNT Dental Center Management Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a frontend-only dental management dashboard built using React. It includes login functionality for Admin and Patient roles, along with features like patient management, appointment scheduling, calendar view, and dashboard KPIs. All data is stored and managed using localStorage only.
 
-## Available Scripts
+Login Credentials
 
-In the project directory, you can run:
+Admin:
+- Email: admin@entnt.in
+- Password: admin123
 
-### `npm start`
+Patient:
+- Email: john@entnt.in
+- Password: patient123
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Live Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The project is deployed and can be accessed here:  
+https://entnt-dental-dashboard-nine.vercel.app
 
-### `npm test`
+Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React (Functional components)
+- React Router
+- Tailwind CSS
+- Context API
+- localStorage (No backend or APIs used)
 
-### `npm run build`
+Folder Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+src/
+  pages/
+    LoginPage.jsx
+    AdminDashboard.jsx
+    PatientDashboard.jsx
+    PatientList.jsx
+    AppointmentList.jsx
+    CalendarView.jsx
+    DashboardKPIs.jsx
+  utils/
+    localStorageUtils.js
+    roleUtils.js
+  styles/
+    main.css
+  App.js
+  index.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Role-based login for Admin and Patient
+- Add, view, and delete patients (admin only)
+- Appointment management
+- Simple calendar view
+- Dashboard KPIs: total revenue, appointment stats, upcoming appointments
+- Data persistence using localStorage
+- Fully responsive and mobile-friendly UI
 
-### `npm run eject`
+Project Highlights
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- No backend or external APIs
+- No third-party auth or database
+- Entirely frontend-based with realistic workflows
+- Built as per ENTNT’s technical assessment requirements
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+GitHub Repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+https://github.com/Ravikishore2003v/entnt-dental-dashboard
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Live App Link
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://entnt-dental-dashboard-nine.vercel.app
